@@ -1,0 +1,57 @@
+body{
+    margin: auto;
+    width: 60%;
+}
+
+header{
+    display: flex;
+    justify-content: baseline;
+    background-color: orange;
+    color: aliceblue;
+    text-align: center;
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1%;
+    border: 50%;
+}
+
+header ul li{
+    list-style: none;
+}
+
+.starter {
+    height: 100px;
+    border-radius: 50%;
+}
+
+section form ul li{
+    list-style: none;
+}
+
+section form ul li label{
+    font-size: 22px;
+}
+
+section{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+}
+
+section button{
+    margin: 5px;
+    font-size: 20px;
+}
+
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-radius: 5px;
+    font-size: medium;
+}
